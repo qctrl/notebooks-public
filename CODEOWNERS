@@ -1,0 +1,10 @@
+##### This file is managed automatically. To update visit: https://github.com/qctrl/repositories-manager. #####
+* @qctrl/infrastructure
+
+.dockerignore @qctrl/infrastructure
+.github/*.y*ml @qctrl/infrastructure
+.github/workflows @qctrl/infrastructure
+docker* @qctrl/infrastructure
+Docker* @qctrl/infrastructure
+
+.github/dependabot.y*ml @qctrl/engineering

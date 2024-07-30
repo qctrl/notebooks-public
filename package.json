@@ -1,0 +1,88 @@
+# How to use this file
+# - Copy this file to the root of your repository
+# - Update the values as per the instructions in the comments (let's pretend JSON supports comments)
+# - Remove all comments
+# - Add any other fields required for your package
+#
+# More information
+# - https://code.q-ctrl.com/packaging#javascript
+# - https://docs.npmjs.com/configuring-npm/package-json
+
+{
+  # name: The "Install" name as defined in https://code.q-ctrl.com/naming-conventions/#packages
+  "name": "@qctrl/template",
+
+  # version: The "Version" as defined in https://code.q-ctrl.com/releases#version
+  "version": "1.2.3",
+
+  # description: The "Package" name as defined in https://code.q-ctrl.com/naming-conventions/#packages
+  "description": "Q-CTRL Template",
+
+  # keywords: Add to this list as appropriate.
+  "keywords": [
+    "black opal",
+    "boulder opal",
+    "fire opal",
+    "nisq",
+    "open controls",
+    "q control",
+    "q ctrl",
+    "q-control",
+    "q-ctrl",
+    "qcontrol",
+    "qctrl",
+    "quantum",
+    "quantum algorithms",
+    "quantum circuits",
+    "quantum coding",
+    "quantum coding software",
+    "quantum computing",
+    "quantum control",
+    "quantum control software",
+    "quantum control theory",
+    "quantum engineering",
+    "quantum error correction",
+    "quantum firmware",
+    "quantum fundamentals",
+    "quantum sensing",
+    "qubit",
+    "qudit"
+  ],
+
+  # homepage: DO NOT EDIT
+  "homepage": "https://q-ctrl.com",
+
+  # bugs: DO NOT EDIT
+  "bugs": {
+    "url" : "https://q-ctrl.com/contact",
+    "email" : "support@q-ctrl.com"
+  },
+
+  # license: The license as defined in https://code.q-ctrl.com/licensing
+  # Commercial = "SEE LICENSE IN LICENSE"
+  # Open source = "Apache-2.0"
+  # Unlicensed = "UNLICENSED"
+  "license": "Apache-2.0",
+
+  # author: DO NOT EDIT
+  "author": {
+    "name": "Q-CTRL",
+    "email": "support@q-ctrl.com",
+    "url": "https://q-ctrl.com"
+  },
+
+  # main: DO NOT EDIT
+  "main": "index.js",
+
+  # repository: A link to the public GitHub repository. Omit if the repository is private
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qctrl/template.git"
+  }
+
+  # engines: The minimum engine versions. Add to this list as appropriate.
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8.6.12"
+  },
+}
